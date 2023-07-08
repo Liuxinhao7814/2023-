@@ -1,0 +1,5 @@
+"G:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" F:\A-STM32\STM32cubeMX_output\Core_Demo\L072RBTx_Core
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug

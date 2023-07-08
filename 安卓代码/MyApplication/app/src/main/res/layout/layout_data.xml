@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv2" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/batteryLevel"
+                android:text="@string/batteryLevel"
+                android:layout_alignParentLeft="true" />
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/switchButton"
+                android:layout_alignParentRight="true"
+                android:checked="true"
+                android:textOff="@string/off"
+                android:textOn="@string/on"
+                android:minHeight="48dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/dynamic_chart1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fadeScrollbars="false"
+                android:overScrollMode="never">
+                <com.lingber.mycontrol.datagridview.DataGridView
+                    android:id="@+id/datagridview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:show_header="true"
+                    app:row_height="50"
+                    app:dividerSize="2">
+                </com.lingber.mycontrol.datagridview.DataGridView>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

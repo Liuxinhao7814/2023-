@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Core/Inc/dht11.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/Inc/key.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/Src/delay.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/Src/dht11.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/Src/key.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/Src/main.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/Src/zigbee.c" charset="GBK" />
+  </component>
+</project>

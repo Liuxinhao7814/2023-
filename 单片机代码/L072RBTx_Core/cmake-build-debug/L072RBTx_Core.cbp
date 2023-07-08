@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="L072RBTx_Core"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/ARM_IDE/MinGW/bin/mingw32-make.exe -f &quot;F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="G:/ARM_IDE/MinGW/bin/mingw32-make.exe -f &quot;F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/ARM_IDE/MinGW/bin/mingw32-make.exe -f &quot;F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/ARM_IDE/MinGW/bin/mingw32-make.exe -f &quot;F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/ARM_IDE/MinGW/bin/mingw32-make.exe -f &quot;F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="G:/ARM_IDE/MinGW/bin/mingw32-make.exe -f &quot;F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/ARM_IDE/MinGW/bin/mingw32-make.exe -f &quot;F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/ARM_IDE/MinGW/bin/mingw32-make.exe -f &quot;F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="L072RBTx_Core.elf">
+				<Option output="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/L072RBTx_Core.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32L072xx"/>
+					<Add directory="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Inc"/>
+					<Add directory="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc"/>
+					<Add directory="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Device/ST/STM32L0xx/Include"/>
+					<Add directory="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include"/>
+					<Add directory="g:\arm_ide\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1"/>
+					<Add directory="g:\arm_ide\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/arm-none-eabi"/>
+					<Add directory="g:\arm_ide\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/backward"/>
+					<Add directory="g:\arm_ide\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/include"/>
+					<Add directory="g:\arm_ide\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/include-fixed"/>
+					<Add directory="g:\arm_ide\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/ARM_IDE/MinGW/bin/mingw32-make.exe -f &quot;F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/Makefile&quot;  VERBOSE=1 L072RBTx_Core.elf"/>
+					<CompileFile command="G:/ARM_IDE/MinGW/bin/mingw32-make.exe -f &quot;F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/ARM_IDE/MinGW/bin/mingw32-make.exe -f &quot;F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/ARM_IDE/MinGW/bin/mingw32-make.exe -f &quot;F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="L072RBTx_Core.elf/fast">
+				<Option output="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/L072RBTx_Core.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32L072xx"/>
+					<Add directory="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Inc"/>
+					<Add directory="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc"/>
+					<Add directory="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Device/ST/STM32L0xx/Include"/>
+					<Add directory="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include"/>
+					<Add directory="g:\arm_ide\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1"/>
+					<Add directory="g:\arm_ide\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/arm-none-eabi"/>
+					<Add directory="g:\arm_ide\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/backward"/>
+					<Add directory="g:\arm_ide\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/include"/>
+					<Add directory="g:\arm_ide\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/include-fixed"/>
+					<Add directory="g:\arm_ide\gcc-arm-none-eabi-10-2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/ARM_IDE/MinGW/bin/mingw32-make.exe -f &quot;F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/Makefile&quot;  VERBOSE=1 L072RBTx_Core.elf/fast"/>
+					<CompileFile command="G:/ARM_IDE/MinGW/bin/mingw32-make.exe -f &quot;F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/ARM_IDE/MinGW/bin/mingw32-make.exe -f &quot;F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/ARM_IDE/MinGW/bin/mingw32-make.exe -f &quot;F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/ARM_IDE/MinGW/bin/mingw32-make.exe -f &quot;F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="G:/ARM_IDE/MinGW/bin/mingw32-make.exe -f &quot;F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/ARM_IDE/MinGW/bin/mingw32-make.exe -f &quot;F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/ARM_IDE/MinGW/bin/mingw32-make.exe -f &quot;F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Inc/GY30.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Inc/adc.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Inc/battery.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Inc/delay.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Inc/dht11.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Inc/dma.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Inc/gpio.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Inc/i2c.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Inc/key.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Inc/lowpower.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Inc/main.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Inc/rtc.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Inc/sensor_type.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Inc/stm32l0xx_hal_conf.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Inc/stm32l0xx_it.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Inc/usart.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Inc/zigbee.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Src/GY30.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Src/adc.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Src/battery.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Src/delay.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Src/dht11.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Src/dma.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Src/gpio.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Src/i2c.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Src/key.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Src/lowpower.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Src/main.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Src/rtc.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Src/stm32l0xx_hal_msp.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Src/stm32l0xx_it.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Src/syscalls.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Src/system_stm32l0xx.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Src/usart.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Core/Src/zigbee.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l072xx.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_adc_ex.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_exti.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_exti.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/STM32L072RBTx_FLASH.ld">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/startup/startup_stm32l072xx.s">
+			<Option target="L072RBTx_Core.elf"/>
+		</Unit>
+		<Unit filename="F:/A-STM32/STM32cubeMX_output/Core_Demo/L072RBTx_Core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

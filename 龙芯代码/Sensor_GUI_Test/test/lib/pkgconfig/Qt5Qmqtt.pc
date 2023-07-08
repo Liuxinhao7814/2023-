@@ -1,0 +1,13 @@
+prefix=/opt/poky/3.3+snapshot/sysroots/loongarch64-poky-linux/usr
+exec_prefix=${prefix}
+libdir=/usr/lib
+includedir=/usr/include
+
+
+Name: Qt5 Qmqtt
+Description: Qt Qmqtt module
+Version: 1.0.2
+Libs: -L${libdir} -lQt5Qmqtt 
+Cflags: -DQT_QMQTT_LIB -I${includedir}/QtQmqtt -I${includedir}
+Requires: Qt5Core Qt5Network
+
