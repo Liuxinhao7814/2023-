@@ -13,15 +13,23 @@ HAL Library@Version STM32Cube_FW_L0 V1.12.2  <br>
 Ubuntu @Version ubuntu-22.04-desktop-amd64  <br>
 
 QMake @Version 3.1<br>
+
 Qt Creator@Version 5.15.3<br>
 ## 开发软件：
 STM32CubeMX<br>
+
 CLion<br>
+
 Qt Creator<br>
+
 Android Studio<br>
+
 VSCode<br>
+
 Notepad++<br>
+
 Altium Designer<br>
+
 
 
 
